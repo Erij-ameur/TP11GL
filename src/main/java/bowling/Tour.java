@@ -48,16 +48,7 @@ public class Tour {
 		lancer.setNbQuille(nbQuille);
 	}
 
-	public int getNbQuilleTour() {
-		int score = 0;
-		if (lancer1.getNbQuille() != -1) {
-			score += lancer1.getNbQuille();
-		}
-		if (lancer2.getNbQuille() != -1) {
-			score += lancer2.getNbQuille();
-		}
-		return score;
-	}
+	
 	public int getScoreQuilleLancer(Lancer l) {
 		return l.getNbQuille();
 	}

@@ -1,8 +1,6 @@
 package bowling;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * Cette classe a pour but d'enregistrer le nombre de quilles abattues lors des
